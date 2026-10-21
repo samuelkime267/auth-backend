@@ -19,7 +19,3 @@ export const SMTP_USER = process.env.SMTP_USER || "";
 export const SMTP_PASS = process.env.SMTP_PASS || "";
 
 export const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
-export const STREAM_KEY_SECRET =
-  process.env.STREAM_KEY_SECRET || "supersecret32characterslength!!";
-
-export const HASH_SECRET = process.env.HASH_SECRET || "supersecrethash";
